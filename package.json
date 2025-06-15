@@ -1,0 +1,43 @@
+{
+  "name": "assistants-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "main": "electron.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "electron": "electron .",
+    "electron-dev": "concurrently \"npm run dev\" \"electron .\"",
+    "electron-pack": "npm run build && electron-builder"
+  },
+  "dependencies": {
+    "dependencies": "^0.0.1",
+    
+    "next": "14.1.4",
+    "openai": "^4.46.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-markdown": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.12.7",
+    "@types/react": "18.2.79",
+    "concurrently": "^8.2.2",
+    "electron-builder": "^24.13.2",
+    "typescript": "5.4.5"
+  },
+  "prettier": {
+    "singleQuote": false
+  },
+  "build": {
+    "appId": "com.openai.assistants",
+    "files": [
+      "**/*"
+    ],
+    "directories": {
+      "buildResources": "public"
+    }
+  }
+}
