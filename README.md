@@ -59,3 +59,4 @@ npm run electron-pack
 ```
 "# inicio-rapido-codex-empacotar-aplicativo-com-electron" 
 "# inicio" 
+"# inicio" 
