@@ -58,3 +58,4 @@ After building the Next.js application you can package it as a native executable
 npm run electron-pack
 ```
 "# inicio-rapido-codex-empacotar-aplicativo-com-electron" 
+"# inicio" 
