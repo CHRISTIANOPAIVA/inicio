@@ -39,7 +39,6 @@ post messages and stream back assistant responses.
 
 ## Endpoints
 
-- `api/assistants` – `POST` create the assistant (used at startup)
 - `api/assistants/threads` – `POST` create a new thread
 - `api/assistants/threads/[threadId]/messages` – `POST` send a message and stream the reply
 
@@ -57,6 +56,3 @@ After building the Next.js application you can package it as a native executable
 ```bash
 npm run electron-pack
 ```
-"# inicio-rapido-codex-empacotar-aplicativo-com-electron" 
-"# inicio" 
-"# inicio" 

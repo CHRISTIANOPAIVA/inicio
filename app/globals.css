@@ -27,18 +27,6 @@ a {
   text-decoration: none;
 }
 
-.warnings {
-  position: absolute;
-  top: 21%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 700px;
-  height: 300px;
-  border-radius: 12px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .logo {
   width: 32px;
