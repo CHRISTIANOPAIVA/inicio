@@ -57,6 +57,13 @@ After building the Next.js application you can package it as a native executable
 ```bash
 npm run electron-pack
 ```
-"# inicio-rapido-codex-empacotar-aplicativo-com-electron" 
-"# inicio" 
-"# inicio" 
+
+## Empacotar com Electron (Português)
+
+Para gerar um executável após compilar o projeto Next.js, execute o seguinte comando:
+
+```bash
+npm run electron-pack
+```
+
+O `electron-builder` criará arquivos de instalação ou aplicativos prontos para distribuição.
